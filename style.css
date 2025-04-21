@@ -13,3 +13,17 @@
     padding: 0;
     font-family: var(--fonte);
 }
+.nav-content{
+    display: flex;
+    justify-content: space-around;
+}
+.buttons-nav:hover{
+    color: var(--branco);
+}
+.main-paragraph{
+    width: auto;
+}
+.main-text{
+    height: 100px;
+    width: 100px;
+}
