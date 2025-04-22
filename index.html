@@ -1,5 +1,5 @@
 <!doctype html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -9,43 +9,80 @@
   </head>
   <body>
     <header>
-        <nav class="navbar navbar-expand-lg bg-primary">
-            <div class="container-fluid nav-content">
-              <a class="navbar-brand" href="#"><strong>Totem</strong><strong class="text-light">AI</strong></a>
-              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-              </button>
-              <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                  <a class="nav-link buttons-nav" aria-current="page" href="#">Desafios</a>
-                  <a class="nav-link buttons-nav" href="#">Soluções</a>
-                  <a class="nav-link buttons-nav" href="#">Objetivo</a>
-                </div>
+        <nav class="navbar navbar-expand-sm sticky-top">
+          <div class="container">
+            <a href="#" class="navbar-brand"><strong class="text-light">Totem</strong><strong>AI</strong></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menuNavbar">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="menuNavbar">
+              <div class="navbar-nav d-flex gap-3 ms-auto">
+                <a href="#" class="text-light text-decoration-none">Desafios</a>
+                <a href="#" class="text-light text-decoration-none">Soluções</a>
+                <a href="#" class="text-light text-decoration-none">Objetivo</a>
               </div>
             </div>
-          </nav>
+          </div>
+        </nav>
     </header>
-    <main class="d-flex m-5 col">
-        <div class="main-text">
-            <div class="main-content m-2">
-                <h2 class="fw-bold fs-1">Valorize seu tempo</h2>
-                <h2 class="fw-bold fs-1">Utilize o Totem<strong class="text-primary">AI</strong></h2>
-                <p class="main-paragraph">O TotemAi é um projeto universitário que tem como principal
-                    objetivo a otimização de tempo e o aumento na eficiencia e
-                    agilizade de processos oferecidos e executados pelo Hospital Sabará.
-                
-                    Todo o processo e ideia serão demonstrados e aplicados atraves do uso da tecnologia, com automação e programação, visando a efiencia e a comunicação entre hospital e paciente.</p>
+    <main>
+        <div class="container">
+          <div class="row gap-3 p-3">
+            <div class="main-title">
+              <h1 class="fs-1 fw-bold">Valorize seu tempo</h1>
+              <h1 class="fs-1 fw-bold">Utilize o Totem<strong class="main-totem">AI</strong></h1>
             </div>
-            <div class="main-buttons d-flex gap-2">
+            <div class="main-content">
+              <p>O TotemAi é um projeto universitário que tem como principal
+                objetivo a otimização de tempo e o aumento na eficiencia e
+                agilizade de processos oferecidos e executados pelo Hospital Sabará.</p>
+              <p>Todo o processo e ideia serão demonstrados e aplicados atraves do uso da tecnologia, com automação e programação, visando a efiencia e a comunicação entre hospital e paciente.</p>
+              <div class="main-buttons d-flex align-items-center gap-3 py-2">
                 <button type="button" class="btn btn-primary">Desafios</button>
                 <button type="button" class="btn btn-primary">Soluções</button>
                 <button type="button" class="btn btn-primary">Objetivo</button>
+              </div>
             </div>
-        </div>
-        <div class="main-image">
             <img src="src/image/Image.png" class="img-fluid" alt="...">
+          </div>
         </div>
     </main>
+    <section class="projeto py-5">
+      <div class="container">
+        <div class="projeto-title py-2">
+          <h2 class="fw-bold">O projeto Totem<strong class="main-totem">AI</strong></h2>
+        </div>
+        <div class="projeto-content row gap-2">
+          <p>Tem como principal objetivo aumentar a eficiência por meio da tecnologia, com a criação de um sistema para uso interno no hospital.</p>
+          <p>Esse sistema permite que o paciente acesse funcionalidades que proporcionam um atendimento mais ágil e eficiente, automatizando tarefas que normalmente são realizadas por funcionários. Além disso, o TotemAI ajuda a esclarecer dúvidas e pode até mesmo auxiliar em processos médicos, como a triagem, otimizando o fluxo de atendimento e melhorando a experiência do paciente.</p>
+        </div>
+        <img src="src/image/Destaques.png" class="img-fluid" alt="...">
+      </div>
+    </section>
+    <section class="desafios py-5">
+      <div class="container">
+        <div class="desafios-text row gap-2 py-3">
+          <div class="desafios-title">
+            <h2 class="fw-bold">Desafios Encontrados</h2>
+          </div>
+          <div class="desafios-content">
+            <p>Cada dificuldade encontrada foi estudada e analisada para que
+              fosse possivel desenvolver e criar soluções funcionais e práticas, favorecendo o Hospital e de forma direta o paciente.</p>
+          </div>
+        </div>
+        <div class="desafios-images row gap-3">
+          <img src="src/image/Tempo Elevado de Espera.png" class="img-fluid" alt="...">
+          <img src="src/image/Informações Incorretas.png" class="img-fluid" alt="...">
+          <img src="src/image/Sobrecarga.png" class="img-fluid" alt="...">
+        </div>
+      </div>
+    </section>
+    <section class="solucoes">
+
+    </section>
+    <footer>
+      
+    </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
   </body>
 </html>

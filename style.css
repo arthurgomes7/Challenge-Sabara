@@ -8,22 +8,12 @@
     --rosa-secundario: #ED6AFF;
     --azul-terceiro: #2B7FFF;
 }
-* {
-    margin: 0;
-    padding: 0;
+*{
     font-family: var(--fonte);
 }
-.nav-content{
-    display: flex;
-    justify-content: space-around;
+header{
+    background-color: var(--azul);
 }
-.buttons-nav:hover{
-    color: var(--branco);
-}
-.main-paragraph{
-    width: auto;
-}
-.main-text{
-    height: 100px;
-    width: 100px;
+.main-totem{
+    color: var(--azul);
 }
