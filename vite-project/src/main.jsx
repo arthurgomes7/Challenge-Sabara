@@ -1,6 +1,9 @@
-import { createRoot } from 'react-dom/client'
-import App from './App.jsx'
+import Contato from './App';
 
-createRoot(document.getElementById('root')).render(
-    <App />
-)
+function App() {
+  return (
+    <>
+      <Contato />
+    </>
+  );
+}
