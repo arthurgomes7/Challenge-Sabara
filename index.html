@@ -16,7 +16,7 @@
               <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse" id="menuNavbar">
-              <div class="navbar-nav d-flex gap-3 ms-auto">
+              <div class="navbar-nav d-flex flex-column flex-sm-row gap-3 ms-auto text-center text-sm-start">
                 <a href="#desafios" class="text-light text-decoration-none">Desafios</a>
                 <a href="#solucoes" class="text-light text-decoration-none">Soluções</a>
                 <a href="#objetivo" class="text-light text-decoration-none">Objetivo</a>
@@ -26,62 +26,89 @@
         </nav>
     </header>
     <main>
-        <div class="container">
-          <div class="row gap-3 p-3">
+      <div class="container">
+        <div class="col align-items-center gap-3 p-3">
+          <div class="col-12 col-md-6">
             <div class="main-title">
               <h1 class="fs-1 fw-bold">Valorize seu tempo</h1>
-              <h1 class="fs-1 fw-bold">Utilize o Totem<strong class="main-totem">AI</strong></h1>
+              <h1 class="fs-1 fw-bold">
+                Utilize o Totem<strong class="main-totem">AI</strong>
+              </h1>
             </div>
-            <div class="main-content">
-              <p>O TotemAi é um projeto universitário que tem como principal
-                objetivo a otimização de tempo e o aumento na eficiencia e
-                agilizade de processos oferecidos e executados pelo Hospital Sabará.</p>
-              <p>Todo o processo e ideia serão demonstrados e aplicados atraves do uso da tecnologia, com automação e programação, visando a efiencia e a comunicação entre hospital e paciente.</p>
-              <div class="main-buttons d-flex align-items-center gap-3 py-2">
+            <div class="main-content mt-3">
+              <p>
+                O TotemAi é um projeto universitário que tem como principal
+                objetivo a otimização de tempo e o aumento na eficiência e
+                agilidade de processos oferecidos e executados pelo Hospital Sabará.
+              </p>
+              <p>
+                Todo o processo e ideia serão demonstrados e aplicados através do uso da tecnologia,
+                com automação e programação, visando a eficiência e a comunicação entre hospital e paciente.
+              </p>
+              <div class="main-buttons d-flex flex-column flex-sm-row align-items-sm-center gap-3 py-2">
                 <button type="button" class="btn btn-primary">Desafios</button>
                 <button type="button" class="btn btn-primary">Soluções</button>
                 <button type="button" class="btn btn-primary">Objetivo</button>
               </div>
             </div>
-            <img src="src/image/Image.png" class="img-fluid" alt="...">
           </div>
+          <div class="col-12 col-md-6 text-center">
+            <img src="src/image/Image.png" class="img-fluid" alt="Imagem do Totem AI">
+          </div>
+    
         </div>
+      </div>
     </main>
+    
     <section class="projeto py-5" id="objetivo">
       <div class="container">
-        <div class="projeto-title py-2">
+        <div class="projeto-title py-2 text-center text-md-start">
           <h2 class="fw-bold">O projeto Totem<strong class="main-totem">AI</strong></h2>
         </div>
         <div class="projeto-content row gap-2">
-          <p>Tem como principal objetivo aumentar a eficiência por meio da tecnologia, com a criação de um sistema para uso interno no hospital.</p>
-          <p>Esse sistema permite que o paciente acesse funcionalidades que proporcionam um atendimento mais ágil e eficiente, automatizando tarefas que normalmente são realizadas por funcionários. Além disso, o TotemAI ajuda a esclarecer dúvidas e pode até mesmo auxiliar em processos médicos, como a triagem, otimizando o fluxo de atendimento e melhorando a experiência do paciente.</p>
+          <div class="col-12">
+            <p>Tem como principal objetivo aumentar a eficiência por meio da tecnologia, com a criação de um sistema para uso interno no hospital.</p>
+            <p>Esse sistema permite que o paciente acesse funcionalidades que proporcionam um atendimento mais ágil e eficiente, automatizando tarefas que normalmente são realizadas por funcionários. Além disso, o TotemAI ajuda a esclarecer dúvidas e pode até mesmo auxiliar em processos médicos, como a triagem, otimizando o fluxo de atendimento e melhorando a experiência do paciente.</p>
+          </div>
         </div>
-        <img src="src/image/Destaques.png" class="img-fluid" alt="...">
+        <div class="text-center">
+          <img src="src/image/Destaques.png" class="img-fluid" alt="...">
+        </div>
       </div>
     </section>
     <section class="desafios py-5" id="desafios">
       <div class="container">
         <div class="desafios-text row gap-2 py-3">
-          <div class="desafios-title">
-            <h2 class="fw-bold">Desafios Encontrados</h2>
+          <div class="col-12 text-center text-md-start">
+            <div class="desafios-title">
+              <h2 class="fw-bold">Desafios Encontrados</h2>
+            </div>
           </div>
-          <div class="desafios-content">
-            <p>Cada dificuldade encontrada foi estudada e analisada para que
-              fosse possivel desenvolver e criar soluções funcionais e práticas, favorecendo o Hospital e de forma direta o paciente.</p>
+          <div class="col-12">
+            <div class="desafios-content">
+              <p>Cada dificuldade encontrada foi estudada e analisada para que
+                fosse possivel desenvolver e criar soluções funcionais e práticas, favorecendo o Hospital e de forma direta o paciente.</p>
+            </div>
           </div>
         </div>
-        <div class="desafios-images row gap-3">
-          <img src="src/image/Tempo Elevado de Espera.png" class="img-fluid" alt="...">
-          <img src="src/image/Informações Incorretas.png" class="img-fluid" alt="...">
-          <img src="src/image/Sobrecarga.png" class="img-fluid" alt="...">
+        <div class="desafios-images row gap-3 justify-content-center">
+          <div class="col-12 col-md-4">
+            <img src="src/image/Tempo Elevado de Espera.png" class="img-fluid" alt="...">
+          </div>
+          <div class="col-12 col-md-4">
+            <img src="src/image/Informações Incorretas.png" class="img-fluid" alt="...">
+          </div>
+          <div class="col-12 col-md-4">
+            <img src="src/image/Sobrecarga.png" class="img-fluid" alt="...">
+          </div>
         </div>
       </div>
     </section>
     <section class="solucoes">
-
+      <!-- Conteúdo futuro -->
     </section>
     <footer>
-
+      <!-- Conteúdo futuro -->
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.5/dist/js/bootstrap.bundle.min.js" integrity="sha384-k6d4wzSIapyDyv1kpU366/PK5hCdSbCRGRCMv+eplOQJWyd1fbcAu9OCUj5zNLiq" crossorigin="anonymous"></script>
   </body>
